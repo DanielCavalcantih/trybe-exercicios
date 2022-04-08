@@ -1,4 +1,4 @@
-const newPerson = (fullName) => `${fullName}@trybe.com`
+const newPerson = (fullName) => `${fullName.replace(' ', '_').toLowerCase()}@trybe.com`
 
 const newEmployees = (newPerson) => {
     const employees = {
